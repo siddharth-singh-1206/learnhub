@@ -1,9 +1,11 @@
 import CourseCard from '../components/CourseCard/CourseCard';
 import PricingCard from '../components/PricingCard/PricingCard';
 import TestimonialCard from '../components/TestimonialCard/TestimonialCard';
+import FAQ from '../components/FAQ/FAQ';
 import { courses } from '../data/courses';
 import { pricingPlans } from '../data/pricing';
 import { testimonials } from '../data/testimonials';
+import { faqs } from '../data/faq';
 import '../styles/courses.css';
 
 const Courses = () => {
@@ -49,6 +51,10 @@ const Courses = () => {
             />
           ))}
         </div>
+      </section>
+      <section className="faq-section">
+        <h2 className="faq-heading">Frequently Asked Questions</h2>
+        <FAQ faqs={faqs} />
       </section>
     </main>
   );
