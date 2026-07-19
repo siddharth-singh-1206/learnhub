@@ -1,7 +1,9 @@
 import CourseCard from '../components/CourseCard/CourseCard';
 import PricingCard from '../components/PricingCard/PricingCard';
+import TestimonialCard from '../components/TestimonialCard/TestimonialCard';
 import { courses } from '../data/courses';
 import { pricingPlans } from '../data/pricing';
+import { testimonials } from '../data/testimonials';
 import '../styles/courses.css';
 
 const Courses = () => {
@@ -31,6 +33,19 @@ const Courses = () => {
               name={plan.name}
               price={plan.price}
               features={plan.features}
+            />
+          ))}
+        </div>
+      </section>
+      <section className="testimonials-section">
+        <h2 className="testimonials-heading">What Our Students Say</h2>
+        <div className="testimonials-grid">
+          {testimonials.map((testimonial) => (
+            <TestimonialCard
+              key={testimonial.id}
+              name={testimonial.name}
+              course={testimonial.course}
+              review={testimonial.review}
             />
           ))}
         </div>
