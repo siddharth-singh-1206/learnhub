@@ -139,7 +139,7 @@ Planned future iterations for this platform include:
 
 ## Author
 
-Siddharth Singh
+Siddharth Singh || Rhythem Jindal || Piyush Pandey || Sanskar Varshney || Adarsh Singh
 
 Mini Hack Project
 
