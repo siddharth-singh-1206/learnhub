@@ -3,31 +3,31 @@ import { FaUserCircle } from 'react-icons/fa';
 export const teamMembers = [
   {
     id: 1,
-    name: 'Emily Watson',
+    name: 'Rhythem Jindal',
     role: 'Founder & CEO',
     avatar: FaUserCircle
   },
   {
     id: 2,
-    name: 'David Kove',
-    role: 'Chief Technology Officer',
+    name: '',
+    role: 'Siddharth Singh',
     avatar: FaUserCircle
   },
   {
     id: 3,
-    name: 'Sarah Jenkins',
+    name: 'Sanskar Varshney',
     role: 'Head of Curriculum',
     avatar: FaUserCircle
   },
   {
     id: 4,
-    name: 'James Anderson',
+    name: 'Adarsh Singh',
     role: 'Lead Mentor',
     avatar: FaUserCircle
   },
   {
     id: 5,
-    name: 'Jessica Taylor',
+    name: 'Piyush Pandey',
     role: 'Student Success Manager',
     avatar: FaUserCircle
   }
